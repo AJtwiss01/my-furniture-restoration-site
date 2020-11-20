@@ -1,4 +1,4 @@
-1605822008a:1:{s:15:"testimonial.htm";a:5:{s:8:"fileName";s:15:"testimonial.htm";s:7:"content";s:839:"<div class="testimonial">
+1605849467a:1:{s:15:"testimonial.htm";a:5:{s:8:"fileName";s:15:"testimonial.htm";s:7:"content";s:839:"<div class="testimonial">
     <img class="w-24 h-24 mx-auto mb-12 rounded-full" src="{{ testimonial.image ? testimonial.image|media : 'assets/dist/images/testimonial-image.jpg'|theme }}" alt="Face">
     <em class="italic text-lg inline-block mb-4">
         {% if testimonial.comment %}

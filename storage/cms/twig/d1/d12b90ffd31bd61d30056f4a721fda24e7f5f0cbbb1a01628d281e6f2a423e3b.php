@@ -78,43 +78,30 @@ class __TwigTemplate_67dbba47e4ca6b3a79f03958dcf3083f2e647b1b84a8d53cb64b5471ffe
         unset($context['__cms_partial_params']);
         // line 6
         echo "
+
 ";
-        // line 7
-        $context['__cms_partial_params'] = [];
-        echo $this->env->getExtension('Cms\Twig\Extension')->partialFunction("brands"        , $context['__cms_partial_params']        , true        );
-        unset($context['__cms_partial_params']);
         // line 8
-        echo "
-";
-        // line 9
-        $context['__cms_partial_params'] = [];
-        echo $this->env->getExtension('Cms\Twig\Extension')->partialFunction("testimonials"        , $context['__cms_partial_params']        , true        );
-        unset($context['__cms_partial_params']);
-        // line 10
-        echo "
-";
-        // line 11
         $context['__cms_partial_params'] = [];
         echo $this->env->getExtension('Cms\Twig\Extension')->partialFunction("about"        , $context['__cms_partial_params']        , true        );
         unset($context['__cms_partial_params']);
-        // line 12
+        // line 9
         echo "
 ";
-        // line 13
+        // line 10
         $context['__cms_partial_params'] = [];
         echo $this->env->getExtension('Cms\Twig\Extension')->partialFunction("services"        , $context['__cms_partial_params']        , true        );
         unset($context['__cms_partial_params']);
-        // line 14
+        // line 11
         echo "
 ";
-        // line 15
+        // line 12
         $context['__cms_partial_params'] = [];
         echo $this->env->getExtension('Cms\Twig\Extension')->partialFunction("contact"        , $context['__cms_partial_params']        , true        );
         unset($context['__cms_partial_params']);
-        // line 16
+        // line 13
         echo "
 ";
-        // line 17
+        // line 14
         $context['__cms_partial_params'] = [];
         echo $this->env->getExtension('Cms\Twig\Extension')->partialFunction("footer"        , $context['__cms_partial_params']        , true        );
         unset($context['__cms_partial_params']);
@@ -132,7 +119,7 @@ class __TwigTemplate_67dbba47e4ca6b3a79f03958dcf3083f2e647b1b84a8d53cb64b5471ffe
 
     public function getDebugInfo()
     {
-        return array (  118 => 17,  115 => 16,  111 => 15,  108 => 14,  104 => 13,  101 => 12,  97 => 11,  94 => 10,  90 => 9,  87 => 8,  83 => 7,  80 => 6,  76 => 5,  73 => 4,  69 => 3,  66 => 2,  62 => 1,);
+        return array (  105 => 14,  102 => 13,  98 => 12,  95 => 11,  91 => 10,  88 => 9,  84 => 8,  80 => 6,  76 => 5,  73 => 4,  69 => 3,  66 => 2,  62 => 1,);
     }
 
     public function getSourceContext()
@@ -143,9 +130,6 @@ class __TwigTemplate_67dbba47e4ca6b3a79f03958dcf3083f2e647b1b84a8d53cb64b5471ffe
 
 {% partial 'portfolio' %}
 
-{% partial 'brands' %}
-
-{% partial 'testimonials' %}
 
 {% partial 'about' %}
 

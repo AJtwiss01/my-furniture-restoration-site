@@ -79,12 +79,7 @@ class __TwigTemplate_dcee9a0032e1897fa0e10910a8739d7c60802979f9d647e2a195666a582
                 <li>
                     <a href=\"#portfolio\" class=\"js-trigger\">Portfolio</a>
                 </li>
-                <li>
-                    <a href=\"#brands\" class=\"js-trigger\" style=\"transition-delay: 0.1s;\">Brands</a>
-                </li>
-                <li>
-                    <a href=\"#testimonials\" class=\"js-trigger\" data-mt-tolerance=\"-50\" style=\"transition-delay: 0.2s;\">Testimonials</a>
-                </li>
+              
                 <li>
                     <a href=\"#about\" class=\"js-trigger\" data-mt-tolerance=\"-50\" style=\"transition-delay: 0.3s;\">About</a>
                 </li>
@@ -136,12 +131,7 @@ class __TwigTemplate_dcee9a0032e1897fa0e10910a8739d7c60802979f9d647e2a195666a582
                 <li>
                     <a href=\"#portfolio\" class=\"js-trigger\">Portfolio</a>
                 </li>
-                <li>
-                    <a href=\"#brands\" class=\"js-trigger\" style=\"transition-delay: 0.1s;\">Brands</a>
-                </li>
-                <li>
-                    <a href=\"#testimonials\" class=\"js-trigger\" data-mt-tolerance=\"-50\" style=\"transition-delay: 0.2s;\">Testimonials</a>
-                </li>
+              
                 <li>
                     <a href=\"#about\" class=\"js-trigger\" data-mt-tolerance=\"-50\" style=\"transition-delay: 0.3s;\">About</a>
                 </li>
