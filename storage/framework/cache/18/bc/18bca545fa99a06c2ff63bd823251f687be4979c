@@ -1,66 +1,118 @@
-1605851130a:1:{s:10:"header.htm";a:6:{s:8:"fileName";s:10:"header.htm";s:7:"content";s:1573:"==
-<header id="header" class="container mx-auto">
-    <nav class="navigation col navigation--primary">
-        <div class="logo">
-            <a href="/">
-                <img width="150px" height="150px" class="rbvd-logo" src="{{ this.theme.logo_header ? this.theme.logo_header|media : 'assets/dist/images/RebornVintagedesing.png'|theme  }}" alt="Logo"> 
-            </a>
-        </div>
-        <div class="navigation__links-wrap">
-            <button class="navigation__button" aria-label="mobile menu">
-                <span></span>
-                <span></span>
-                <span></span>
-            </button>
-            <ul class="navigation__links">
-                <li>
-                    <a href="#portfolio" class="js-trigger">Portfolio</a>
-                </li>
-              
-                <li>
-                    <a href="#about" class="js-trigger" data-mt-tolerance="-50" style="transition-delay: 0.3s;">About</a>
-                </li>
-                <li>
-                    <a href="#services" class="js-trigger" data-mt-tolerance="-50" style="transition-delay: 0.4s;">Services</a>
-                </li>
-                <li>
-                    <a href="#contact" class="js-trigger" data-mt-tolerance="-80" style="transition-delay: 0.5s;">Contact</a>
-                </li>
-            </ul>
-            <div class="navigation__overlay"></div>
-            <a href="#header" title="Go to top" class="scroll-to-top-btn js-trigger"><i class="icofont-long-arrow-up icofont-lg"></i></a>
-        </div>
-    </nav>
-</header>";s:5:"mtime";i:1605850527;s:6:"markup";s:1570:"<header id="header" class="container mx-auto">
-    <nav class="navigation col navigation--primary">
-        <div class="logo">
-            <a href="/">
-                <img width="150px" height="150px" class="rbvd-logo" src="{{ this.theme.logo_header ? this.theme.logo_header|media : 'assets/dist/images/RebornVintagedesing.png'|theme  }}" alt="Logo"> 
-            </a>
-        </div>
-        <div class="navigation__links-wrap">
-            <button class="navigation__button" aria-label="mobile menu">
-                <span></span>
-                <span></span>
-                <span></span>
-            </button>
-            <ul class="navigation__links">
-                <li>
-                    <a href="#portfolio" class="js-trigger">Portfolio</a>
-                </li>
-              
-                <li>
-                    <a href="#about" class="js-trigger" data-mt-tolerance="-50" style="transition-delay: 0.3s;">About</a>
-                </li>
-                <li>
-                    <a href="#services" class="js-trigger" data-mt-tolerance="-50" style="transition-delay: 0.4s;">Services</a>
-                </li>
-                <li>
-                    <a href="#contact" class="js-trigger" data-mt-tolerance="-80" style="transition-delay: 0.5s;">Contact</a>
-                </li>
-            </ul>
-            <div class="navigation__overlay"></div>
-            <a href="#header" title="Go to top" class="scroll-to-top-btn js-trigger"><i class="icofont-long-arrow-up icofont-lg"></i></a>
-        </div>
-    </nav>
-</header>";s:4:"code";N;s:17:"_PARSER_ERROR_INI";s:0:"";}}
+1605907335a:1:{s:10:"header.htm";a:5:{s:8:"fileName";s:10:"header.htm";s:7:"content";s:1671:"<header id="header" class="container mx-auto">
+  <nav class="navigation col navigation--primary">
+    <div class="logo">
+      <a href="/">
+        <img
+          width="150px"
+          height="150px"
+          class="rbvd-logo"
+          src="{{ this.theme.logo_header ? this.theme.logo_header|media : 'assets/dist/images/RebornVintagedesing.png'|theme  }}"
+          alt="Logo"
+        />
+      </a>
+    </div>
+    <div class="navigation__links-wrap">
+      <button class="navigation__button" aria-label="mobile menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <ul class="navigation__links">
+        <li>
+          <a href="#portfolio" class="js-trigger">Portfolio</a>
+        </li>
+
+        <li>
+          <a
+            href="#about"
+            class="js-trigger"
+            data-mt-tolerance="-50"
+            style="transition-delay: 0.3s;"
+            >About</a
+          >
+        </li>
+        <li>
+          <a
+            href="#services"
+            class="js-trigger"
+            data-mt-tolerance="-50"
+            style="transition-delay: 0.4s;"
+            >Services</a
+          >
+        </li>
+        <li>
+          <a
+            href="#contact"
+            class="js-trigger"
+            data-mt-tolerance="-80"
+            style="transition-delay: 0.5s;"
+            >Contact</a
+          >
+        </li>
+      </ul>
+      <div class="navigation__overlay"></div>
+      <a href="#header" title="Go to top" class="scroll-to-top-btn js-trigger"
+        ><i class="icofont-long-arrow-up icofont-lg"></i
+      ></a>
+    </div>
+  </nav>
+</header>
+";s:5:"mtime";i:1605905422;s:6:"markup";s:1669:"<header id="header" class="container mx-auto">
+  <nav class="navigation col navigation--primary">
+    <div class="logo">
+      <a href="/">
+        <img
+          width="150px"
+          height="150px"
+          class="rbvd-logo"
+          src="{{ this.theme.logo_header ? this.theme.logo_header|media : 'assets/dist/images/RebornVintagedesing.png'|theme  }}"
+          alt="Logo"
+        />
+      </a>
+    </div>
+    <div class="navigation__links-wrap">
+      <button class="navigation__button" aria-label="mobile menu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <ul class="navigation__links">
+        <li>
+          <a href="#portfolio" class="js-trigger">Portfolio</a>
+        </li>
+
+        <li>
+          <a
+            href="#about"
+            class="js-trigger"
+            data-mt-tolerance="-50"
+            style="transition-delay: 0.3s;"
+            >About</a
+          >
+        </li>
+        <li>
+          <a
+            href="#services"
+            class="js-trigger"
+            data-mt-tolerance="-50"
+            style="transition-delay: 0.4s;"
+            >Services</a
+          >
+        </li>
+        <li>
+          <a
+            href="#contact"
+            class="js-trigger"
+            data-mt-tolerance="-80"
+            style="transition-delay: 0.5s;"
+            >Contact</a
+          >
+        </li>
+      </ul>
+      <div class="navigation__overlay"></div>
+      <a href="#header" title="Go to top" class="scroll-to-top-btn js-trigger"
+        ><i class="icofont-long-arrow-up icofont-lg"></i
+      ></a>
+    </div>
+  </nav>
+</header>";s:4:"code";N;}}

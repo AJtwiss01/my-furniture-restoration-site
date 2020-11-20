@@ -30,7 +30,7 @@ class __TwigTemplate_dcee9a0032e1897fa0e10910a8739d7c60802979f9d647e2a195666a582
         ];
         $this->sandbox = $this->env->getExtension('\Twig\Extension\SandboxExtension');
         $tags = array();
-        $filters = array("media" => 5, "theme" => 5);
+        $filters = array("media" => 9, "theme" => 9);
         $functions = array();
 
         try {
@@ -60,40 +60,66 @@ class __TwigTemplate_dcee9a0032e1897fa0e10910a8739d7c60802979f9d647e2a195666a582
         $macros = $this->macros;
         // line 1
         echo "<header id=\"header\" class=\"container mx-auto\">
-    <nav class=\"navigation col navigation--primary\">
-        <div class=\"logo\">
-            <a href=\"/\">
-                <img width=\"150px\" height=\"150px\" class=\"rbvd-logo\" src=\"";
-        // line 5
-        echo ((twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["this"] ?? null), "theme", [], "any", false, false, true, 5), "logo_header", [], "any", false, false, true, 5)) ? ($this->extensions['System\Twig\Extension']->mediaFilter($this->sandbox->ensureToStringAllowed(twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["this"] ?? null), "theme", [], "any", false, false, true, 5), "logo_header", [], "any", false, false, true, 5), 5, $this->source))) : ($this->extensions['Cms\Twig\Extension']->themeFilter("assets/dist/images/RebornVintagedesing.png")));
-        echo "\" alt=\"Logo\"> 
-            </a>
-        </div>
-        <div class=\"navigation__links-wrap\">
-            <button class=\"navigation__button\" aria-label=\"mobile menu\">
-                <span></span>
-                <span></span>
-                <span></span>
-            </button>
-            <ul class=\"navigation__links\">
-                <li>
-                    <a href=\"#portfolio\" class=\"js-trigger\">Portfolio</a>
-                </li>
-              
-                <li>
-                    <a href=\"#about\" class=\"js-trigger\" data-mt-tolerance=\"-50\" style=\"transition-delay: 0.3s;\">About</a>
-                </li>
-                <li>
-                    <a href=\"#services\" class=\"js-trigger\" data-mt-tolerance=\"-50\" style=\"transition-delay: 0.4s;\">Services</a>
-                </li>
-                <li>
-                    <a href=\"#contact\" class=\"js-trigger\" data-mt-tolerance=\"-80\" style=\"transition-delay: 0.5s;\">Contact</a>
-                </li>
-            </ul>
-            <div class=\"navigation__overlay\"></div>
-            <a href=\"#header\" title=\"Go to top\" class=\"scroll-to-top-btn js-trigger\"><i class=\"icofont-long-arrow-up icofont-lg\"></i></a>
-        </div>
-    </nav>
+  <nav class=\"navigation col navigation--primary\">
+    <div class=\"logo\">
+      <a href=\"/\">
+        <img
+          width=\"150px\"
+          height=\"150px\"
+          class=\"rbvd-logo\"
+          src=\"";
+        // line 9
+        echo ((twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["this"] ?? null), "theme", [], "any", false, false, true, 9), "logo_header", [], "any", false, false, true, 9)) ? ($this->extensions['System\Twig\Extension']->mediaFilter($this->sandbox->ensureToStringAllowed(twig_get_attribute($this->env, $this->source, twig_get_attribute($this->env, $this->source, ($context["this"] ?? null), "theme", [], "any", false, false, true, 9), "logo_header", [], "any", false, false, true, 9), 9, $this->source))) : ($this->extensions['Cms\Twig\Extension']->themeFilter("assets/dist/images/RebornVintagedesing.png")));
+        echo "\"
+          alt=\"Logo\"
+        />
+      </a>
+    </div>
+    <div class=\"navigation__links-wrap\">
+      <button class=\"navigation__button\" aria-label=\"mobile menu\">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <ul class=\"navigation__links\">
+        <li>
+          <a href=\"#portfolio\" class=\"js-trigger\">Portfolio</a>
+        </li>
+
+        <li>
+          <a
+            href=\"#about\"
+            class=\"js-trigger\"
+            data-mt-tolerance=\"-50\"
+            style=\"transition-delay: 0.3s;\"
+            >About</a
+          >
+        </li>
+        <li>
+          <a
+            href=\"#services\"
+            class=\"js-trigger\"
+            data-mt-tolerance=\"-50\"
+            style=\"transition-delay: 0.4s;\"
+            >Services</a
+          >
+        </li>
+        <li>
+          <a
+            href=\"#contact\"
+            class=\"js-trigger\"
+            data-mt-tolerance=\"-80\"
+            style=\"transition-delay: 0.5s;\"
+            >Contact</a
+          >
+        </li>
+      </ul>
+      <div class=\"navigation__overlay\"></div>
+      <a href=\"#header\" title=\"Go to top\" class=\"scroll-to-top-btn js-trigger\"
+        ><i class=\"icofont-long-arrow-up icofont-lg\"></i
+      ></a>
+    </div>
+  </nav>
 </header>";
     }
 
@@ -109,43 +135,69 @@ class __TwigTemplate_dcee9a0032e1897fa0e10910a8739d7c60802979f9d647e2a195666a582
 
     public function getDebugInfo()
     {
-        return array (  68 => 5,  62 => 1,);
+        return array (  72 => 9,  62 => 1,);
     }
 
     public function getSourceContext()
     {
         return new Source("<header id=\"header\" class=\"container mx-auto\">
-    <nav class=\"navigation col navigation--primary\">
-        <div class=\"logo\">
-            <a href=\"/\">
-                <img width=\"150px\" height=\"150px\" class=\"rbvd-logo\" src=\"{{ this.theme.logo_header ? this.theme.logo_header|media : 'assets/dist/images/RebornVintagedesing.png'|theme  }}\" alt=\"Logo\"> 
-            </a>
-        </div>
-        <div class=\"navigation__links-wrap\">
-            <button class=\"navigation__button\" aria-label=\"mobile menu\">
-                <span></span>
-                <span></span>
-                <span></span>
-            </button>
-            <ul class=\"navigation__links\">
-                <li>
-                    <a href=\"#portfolio\" class=\"js-trigger\">Portfolio</a>
-                </li>
-              
-                <li>
-                    <a href=\"#about\" class=\"js-trigger\" data-mt-tolerance=\"-50\" style=\"transition-delay: 0.3s;\">About</a>
-                </li>
-                <li>
-                    <a href=\"#services\" class=\"js-trigger\" data-mt-tolerance=\"-50\" style=\"transition-delay: 0.4s;\">Services</a>
-                </li>
-                <li>
-                    <a href=\"#contact\" class=\"js-trigger\" data-mt-tolerance=\"-80\" style=\"transition-delay: 0.5s;\">Contact</a>
-                </li>
-            </ul>
-            <div class=\"navigation__overlay\"></div>
-            <a href=\"#header\" title=\"Go to top\" class=\"scroll-to-top-btn js-trigger\"><i class=\"icofont-long-arrow-up icofont-lg\"></i></a>
-        </div>
-    </nav>
+  <nav class=\"navigation col navigation--primary\">
+    <div class=\"logo\">
+      <a href=\"/\">
+        <img
+          width=\"150px\"
+          height=\"150px\"
+          class=\"rbvd-logo\"
+          src=\"{{ this.theme.logo_header ? this.theme.logo_header|media : 'assets/dist/images/RebornVintagedesing.png'|theme  }}\"
+          alt=\"Logo\"
+        />
+      </a>
+    </div>
+    <div class=\"navigation__links-wrap\">
+      <button class=\"navigation__button\" aria-label=\"mobile menu\">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+      <ul class=\"navigation__links\">
+        <li>
+          <a href=\"#portfolio\" class=\"js-trigger\">Portfolio</a>
+        </li>
+
+        <li>
+          <a
+            href=\"#about\"
+            class=\"js-trigger\"
+            data-mt-tolerance=\"-50\"
+            style=\"transition-delay: 0.3s;\"
+            >About</a
+          >
+        </li>
+        <li>
+          <a
+            href=\"#services\"
+            class=\"js-trigger\"
+            data-mt-tolerance=\"-50\"
+            style=\"transition-delay: 0.4s;\"
+            >Services</a
+          >
+        </li>
+        <li>
+          <a
+            href=\"#contact\"
+            class=\"js-trigger\"
+            data-mt-tolerance=\"-80\"
+            style=\"transition-delay: 0.5s;\"
+            >Contact</a
+          >
+        </li>
+      </ul>
+      <div class=\"navigation__overlay\"></div>
+      <a href=\"#header\" title=\"Go to top\" class=\"scroll-to-top-btn js-trigger\"
+        ><i class=\"icofont-long-arrow-up icofont-lg\"></i
+      ></a>
+    </div>
+  </nav>
 </header>", "/Users/ajtwiss/code/rbvd/themes/rbvd-theme/partials/header.htm", "");
     }
 }

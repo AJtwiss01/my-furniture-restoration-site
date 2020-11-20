@@ -1,0 +1,85 @@
+.glider-dot:hover, .glider-dot:focus, .glider-dot.active {
+  background-color: #3dbcfc; }
+
+.glider-prev:hover, .glider-next:hover, .glider-prev:focus, .glider-next:focus {
+  color: #3dbcfc; }
+/* Override Tailwinds colors */
+.text-primary {
+  color: #e4324c; }
+
+.text-secondary {
+  color: #3dbcfc; }
+
+.text-tertiary {
+  color: #27ae60; }
+
+.text-quaternary {
+  color: #e74c3c; }
+
+.bg-primary {
+  background-color: #e4324c; }
+
+.bg-secondary {
+  background-color: #3dbcfc; }
+
+.bg-tertiary {
+  background-color: #27ae60; }
+
+.bg-quaternary {
+  background-color: #e74c3c; }
+
+.hover\:text-primary:hover {
+  color: #e4324c; }
+
+.hover\:text-secondary:hover {
+  color: #3dbcfc; }
+
+.hover\:text-tertiary:hover {
+  color: #27ae60; }
+
+.hover\:text-quaternary:hover {
+  color: #e74c3c; }
+
+body {
+  color: #343333; }
+/* Button Override */
+.btn {
+  background-color: #f6f6f6; }
+  .btn:hover {
+    background-color: #ddd; }
+  .btn--primary {
+    background-color: #e4324c; }
+  .btn--primary:hover {
+    background-color: #c91a34; }
+
+.navigation__button span {
+  background-color: #343333; }
+  .navigation__button--active span {
+    background-color: white; }
+
+.navigation__links li a:hover::after {
+  background-color: #e4324c; }
+
+.navigation__overlay {
+  background-color: #343333; }
+
+.social-icons__bg {
+  background-color: #343333; }
+
+.scroll-to-top-btn {
+  background-color: #343333; }
+
+.scroll-to-top-btn:hover {
+  background-color: #e4324c; }
+
+.section__heading::before {
+  background-color: #e4324c; }
+
+.hero__subheading span::before {
+  background-color: #e4324c; }
+
+.portfolio-item__thumbnail-overlay, .portfolio-item__details-text {
+  background-color: #343333; }
+
+.footer {
+  background-color: #343333; }
