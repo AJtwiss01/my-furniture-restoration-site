@@ -1,4 +1,4 @@
-1605850864a:1:{s:8:"hero.htm";a:5:{s:8:"fileName";s:8:"hero.htm";s:7:"content";s:7008:"<section id="hero" class="hero flex container mx-auto">
+1605907335a:1:{s:8:"hero.htm";a:5:{s:8:"fileName";s:8:"hero.htm";s:7:"content";s:7008:"<section id="hero" class="hero flex container mx-auto">
     <div class="col w-full md:w-5/12">
         <div class="hero__content py-24 pl-2">
             <h2 class="hero__heading hero__slide opacity-0">{{ this.theme.hero_heading }}</h2>

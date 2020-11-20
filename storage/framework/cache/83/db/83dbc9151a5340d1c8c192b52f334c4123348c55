@@ -1,4 +1,4 @@
-1605851130a:1:{s:9:"index.htm";a:12:{s:8:"fileName";s:9:"index.htm";s:7:"content";s:717:"title = "Homepage"
+1605907335a:1:{s:9:"index.htm";a:12:{s:8:"fileName";s:9:"index.htm";s:7:"content";s:717:"title = "Homepage"
 url = "/"
 layout = "default"
 meta_title = "Website Title"
@@ -32,7 +32,7 @@ emails_date_format = "Y-m-d"
 
 {% partial 'contact' %}
 
-{% partial 'footer' %}";s:5:"mtime";i:1605850502;s:6:"markup";s:183:"{% partial 'header' %}
+{% partial 'footer' %}";s:5:"mtime";i:1605850733;s:6:"markup";s:183:"{% partial 'header' %}
 
 {% partial 'hero' %}
 
