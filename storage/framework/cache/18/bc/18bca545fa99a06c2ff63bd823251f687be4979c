@@ -1,4 +1,4 @@
-1605822008a:1:{s:10:"header.htm";a:6:{s:8:"fileName";s:10:"header.htm";s:7:"content";s:1885:"==
+1605851130a:1:{s:10:"header.htm";a:6:{s:8:"fileName";s:10:"header.htm";s:7:"content";s:1573:"==
 <header id="header" class="container mx-auto">
     <nav class="navigation col navigation--primary">
         <div class="logo">
@@ -16,12 +16,7 @@
                 <li>
                     <a href="#portfolio" class="js-trigger">Portfolio</a>
                 </li>
-                <li>
-                    <a href="#brands" class="js-trigger" style="transition-delay: 0.1s;">Brands</a>
-                </li>
-                <li>
-                    <a href="#testimonials" class="js-trigger" data-mt-tolerance="-50" style="transition-delay: 0.2s;">Testimonials</a>
-                </li>
+              
                 <li>
                     <a href="#about" class="js-trigger" data-mt-tolerance="-50" style="transition-delay: 0.3s;">About</a>
                 </li>
@@ -36,7 +31,7 @@
             <a href="#header" title="Go to top" class="scroll-to-top-btn js-trigger"><i class="icofont-long-arrow-up icofont-lg"></i></a>
         </div>
     </nav>
-</header>";s:5:"mtime";i:1602103362;s:6:"markup";s:1882:"<header id="header" class="container mx-auto">
+</header>";s:5:"mtime";i:1605850527;s:6:"markup";s:1570:"<header id="header" class="container mx-auto">
     <nav class="navigation col navigation--primary">
         <div class="logo">
             <a href="/">
@@ -53,12 +48,7 @@
                 <li>
                     <a href="#portfolio" class="js-trigger">Portfolio</a>
                 </li>
-                <li>
-                    <a href="#brands" class="js-trigger" style="transition-delay: 0.1s;">Brands</a>
-                </li>
-                <li>
-                    <a href="#testimonials" class="js-trigger" data-mt-tolerance="-50" style="transition-delay: 0.2s;">Testimonials</a>
-                </li>
+              
                 <li>
                     <a href="#about" class="js-trigger" data-mt-tolerance="-50" style="transition-delay: 0.3s;">About</a>
                 </li>

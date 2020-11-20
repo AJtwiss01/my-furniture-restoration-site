@@ -1,11 +1,9 @@
-1605822008a:1:{s:9:"index.htm";a:14:{s:8:"fileName";s:9:"index.htm";s:7:"content";s:803:"title = "Homepage"
+1605851130a:1:{s:9:"index.htm";a:12:{s:8:"fileName";s:9:"index.htm";s:7:"content";s:717:"title = "Homepage"
 url = "/"
 layout = "default"
 meta_title = "Website Title"
 meta_description = "Meta Desription"
 is_hidden = 0
-robot_index = "index"
-robot_follow = "follow"
 
 [genericForm]
 rules[name] = "required"
@@ -27,9 +25,6 @@ emails_date_format = "Y-m-d"
 
 {% partial 'portfolio' %}
 
-{% partial 'brands' %}
-
-{% partial 'testimonials' %}
 
 {% partial 'about' %}
 
@@ -37,15 +32,12 @@ emails_date_format = "Y-m-d"
 
 {% partial 'contact' %}
 
-{% partial 'footer' %}";s:5:"mtime";i:1602096043;s:6:"markup";s:223:"{% partial 'header' %}
+{% partial 'footer' %}";s:5:"mtime";i:1605850502;s:6:"markup";s:183:"{% partial 'header' %}
 
 {% partial 'hero' %}
 
 {% partial 'portfolio' %}
 
-{% partial 'brands' %}
-
-{% partial 'testimonials' %}
 
 {% partial 'about' %}
 
@@ -53,4 +45,4 @@ emails_date_format = "Y-m-d"
 
 {% partial 'contact' %}
 
-{% partial 'footer' %}";s:4:"code";N;s:5:"title";s:8:"Homepage";s:3:"url";s:1:"/";s:6:"layout";s:7:"default";s:10:"meta_title";s:13:"Website Title";s:16:"meta_description";s:15:"Meta Desription";s:9:"is_hidden";s:1:"0";s:11:"robot_index";s:5:"index";s:12:"robot_follow";s:6:"follow";s:11:"genericForm";a:10:{s:5:"rules";a:3:{s:4:"name";s:8:"required";s:7:"message";s:8:"required";s:5:"email";s:14:"required|email";}s:16:"messages_success";s:36:"Your form was successfully submitted";s:15:"messages_errors";s:38:"There were errors with your submission";s:13:"inline_errors";s:8:"disabled";s:13:"sanitize_data";s:8:"disabled";s:12:"anonymize_ip";s:8:"disabled";s:15:"recaptcha_theme";s:5:"light";s:14:"recaptcha_type";s:5:"image";s:14:"recaptcha_size";s:6:"normal";s:18:"emails_date_format";s:5:"Y-m-d";}}}
+{% partial 'footer' %}";s:4:"code";N;s:5:"title";s:8:"Homepage";s:3:"url";s:1:"/";s:6:"layout";s:7:"default";s:10:"meta_title";s:13:"Website Title";s:16:"meta_description";s:15:"Meta Desription";s:9:"is_hidden";s:1:"0";s:11:"genericForm";a:10:{s:5:"rules";a:3:{s:4:"name";s:8:"required";s:7:"message";s:8:"required";s:5:"email";s:14:"required|email";}s:16:"messages_success";s:36:"Your form was successfully submitted";s:15:"messages_errors";s:38:"There were errors with your submission";s:13:"inline_errors";s:8:"disabled";s:13:"sanitize_data";s:8:"disabled";s:12:"anonymize_ip";s:8:"disabled";s:15:"recaptcha_theme";s:5:"light";s:14:"recaptcha_type";s:5:"image";s:14:"recaptcha_size";s:6:"normal";s:18:"emails_date_format";s:5:"Y-m-d";}}}

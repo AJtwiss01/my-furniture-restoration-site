@@ -1,27 +1,26 @@
-
 import scroll from './scroll';
 import navigation from './navigation';
 import animation from './animation';
-import carousel from './carousel';
+// import carousel from './carousel';
 import portfolio from './portfolio';
 import validation from './validation';
 
-(function(){
+(function () {
 
-    setTimeout(()=> {
+    setTimeout(() => {
 
         animation['hero']().play();
 
-    },500);
+    }, 500);
 
     const scripts = [
         scroll,
         navigation,
-        carousel,
+        // carousel,
         portfolio,
         validation
     ];
 
     scripts.forEach(script => script.init());
-    
+
 })();

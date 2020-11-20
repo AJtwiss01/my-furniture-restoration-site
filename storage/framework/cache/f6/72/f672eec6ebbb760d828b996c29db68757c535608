@@ -1,4 +1,4 @@
-1605822008a:1:{s:16:"service-item.htm";a:5:{s:8:"fileName";s:16:"service-item.htm";s:7:"content";s:1538:"<div class="service bg-white p-8 shadow-md border border-gray-100">
+1605850864a:1:{s:16:"service-item.htm";a:5:{s:8:"fileName";s:16:"service-item.htm";s:7:"content";s:1538:"<div class="service bg-white p-8 shadow-md border border-gray-100">
     <h4 class="service__title text-lg text-primary mb-4">{{ service.title == '' ? 'Static Website' : service.title }}</h4>
     <p class="service__description">{{ service.description == '' ? 'Lorem ipsum dolor sit amet consectetur adipisicing elit.' : service.description }} </p>
     <p class="text-4xl font-bold"><strong>{{ service.price == '' ? '$500' : service.price}}</strong></p>

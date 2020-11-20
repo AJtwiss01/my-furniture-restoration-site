@@ -1,4 +1,4 @@
-1605822008a:1:{s:10:"brands.htm";a:5:{s:8:"fileName";s:10:"brands.htm";s:7:"content";s:1290:"<section id="brands" class="brands section section-ntm container mx-auto">
+1605850864a:1:{s:10:"brands.htm";a:5:{s:8:"fileName";s:10:"brands.htm";s:7:"content";s:1290:"<section id="brands" class="brands section section-ntm container mx-auto">
     <div class="flex flex-col md:flex-row">
         <div class="col w-full md:w-5/12 text-center md:text-left mb-8">
             <h3 class="section__heading text-2xl mb-4 md:ml-16 md:w-1/2">{{ this.theme.brands_heading }}</h3>
